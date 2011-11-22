@@ -1,0 +1,11 @@
+aExCopyContentPlugin
+
+This plugin adds a button that copies the default culture content of the page to the current culture. The button is located under "This Page" button.
+
+INSTALLATION
+- Add aExCopyContentPlugin to the list of enabled plugins in config/ProjectConfiguration.class.php
+- Add copyContent to the list of enabled modules in settings.yml
+- Override the a/breadcrumbExtra partial (file app/frontend/modules/a/templates/_breadcrumbExra.php) and add the following line to it:
+<?php include_partial("copyContent/button", array('page' => $page)); ?>
+
+USAGE

@@ -1,0 +1,3 @@
+copyContent:
+  url:   /admin/copyContent
+  param: { module: copyContent, action: copy }

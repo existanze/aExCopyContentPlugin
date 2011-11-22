@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="en_US" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>Copy Content</source>
+        <target>Αντιγραφή Περιεχομένου</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Copy</source>
+        <target>Αντιγραφή</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Cancel</source>
+        <target>Ακύρωση</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
